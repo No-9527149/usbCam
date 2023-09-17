@@ -1,0 +1,9 @@
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/CMakeFiles/usbCam.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/utils/CMakeFiles/utils.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/utils/CMakeFiles/edit_cache.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/utils/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/calibrate/CMakeFiles/calibrate.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/calibrate/CMakeFiles/edit_cache.dir
+/tmp/tmp.e2eyNA9N2g/cmake-build-debug/calibrate/CMakeFiles/rebuild_cache.dir

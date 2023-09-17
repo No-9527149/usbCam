@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsnap.a CMakeFiles/snap.dir/snap.cpp.o
+/usr/bin/ranlib libsnap.a

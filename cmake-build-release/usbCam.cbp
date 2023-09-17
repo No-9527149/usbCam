@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="usbCam"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;CMake Files\calibrate\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\local\;CMake Files\..\..\usr\local\lib\;CMake Files\..\..\usr\local\lib\cmake\;CMake Files\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usbCam">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/usbCam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 usbCam"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="usbCam/fast">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/usbCam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 usbCam/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibrate">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/calibrate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 calibrate"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calibrate/fast">
+				<Option output="/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/calibrate" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 calibrate/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/tmp/tmp.e2eyNA9N2g/cmake-build-release/calibrate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/calibrate/calibrate.cpp">
+			<Option target="calibrate"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/calibrate/calibrate.h">
+			<Option target="calibrate"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/calibrate/main.cpp">
+			<Option target="calibrate"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/main.cpp">
+			<Option target="usbCam"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/utils/utils.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/utils/utils.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/calibrate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\calibrate\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.e2eyNA9N2g/../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

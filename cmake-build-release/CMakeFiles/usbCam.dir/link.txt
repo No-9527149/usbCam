@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/usbCam.dir/main.cpp.o -o usbCam  utils/libutils.a -ljpeg -lSDL2 
