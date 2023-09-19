@@ -40,7 +40,7 @@ int main() {
             switch (event.type) {
                 case SDL_KEYDOWN:
                     printf("Key %s Down! Snap image no.%d\n", SDL_GetKeyName(event.key.keysym.sym), imgCount);
-                    sprintf(fileName, "../image/img_%d,jpg", imgCount++);
+                    sprintf(fileName, "../image/img_%d.jpg", imgCount++);
                     imgFile = fopen(fileName, "wb");
                     std::fwrite(vDev.raw_Buf, sizeof(&vDev.raw_Buf), vDev.raw_W * vDev.raw_H * 2, imgFile);
                     fclose(imgFile);
