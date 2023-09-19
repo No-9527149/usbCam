@@ -1,9 +1,9 @@
 #include <dirent.h>
 #include "calibrate.h"
 
-const float CHESSBOARD_SQUARE_SIZE = 12.5f;
+const float CHESSBOARD_SQUARE_SIZE = 28.0f;
 #define CHESSBOARD_SQUARE_WIDTH_NUM 9;
-#define CHESSBOARD_SQUARE_HEIGHT_NUM 8;
+#define CHESSBOARD_SQUARE_HEIGHT_NUM 6;
 
 /**
   * @brief  Load image list from folder path
@@ -30,6 +30,7 @@ bool loadImgList(const string &imgDir, vector<string> &imgList) {
     for (const auto &imgPath : imgList) {
         cout << imgPath << endl;
     }
+    sort(imgList.begin(), imgList.end());
     return true;
 }
 
@@ -51,8 +52,8 @@ int split(vector<string> &imgList) {
             Mat leftImg = initImg(Rect(0, 0, mid, initImg.rows));
             Mat rightImg = initImg(Rect(mid, 0, initImg.cols - mid, initImg.rows));
 
-            string leftImgDir = "../../calibrate/left/img_" + typeToString(i) + ".jpg";
-            string rightImgDir = "../calibrate/right/img_" + typeToString(i) + ".jpg";
+            string leftImgDir = "../../calibrate/left/img_" + to_string(i) + ".png";
+            string rightImgDir = "../../calibrate/right/img_" + to_string(i) + ".png";
 
             cv::imwrite(leftImgDir, leftImg);
             cv::imwrite(rightImgDir, rightImg);
@@ -103,7 +104,7 @@ bool calibrate(Mat &interMat, Mat &disCoe, vector<vector<Point2f>> &imgPoints, v
 
     bool flag = false;
 
-    int imgNum = (int) imgList.size() / 2;
+    int imgNum = (int) imgList.size();
     cout << "Number of Images: " << imgNum << endl;
     namedWindow("view", 1);
 

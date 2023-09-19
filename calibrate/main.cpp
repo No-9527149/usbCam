@@ -78,8 +78,8 @@ int main() {
     Mat canL = canvas(Rect(0, 0, imgSize.width, imgSize.height));
     Mat canR = canvas(Rect(imgSize.width, 0, imgSize.width, imgSize.height));
 
-    viewL = imread("../../test/test_left.jpg", 1);
-    viewR = imread("../../test/test_right.jpg", 1);
+    viewL = imread("../../test/test_left.png", 1);
+    viewR = imread("../../test/test_right.png", 1);
     viewL.copyTo(canL);
     viewR.copyTo(canR);
     cout << "Done!" << endl;
@@ -111,9 +111,10 @@ int main() {
     cout << "stereo rectify done" << endl;
 
     imshow("Before rectified", beforeRec);
+    waitKey(1000000);
     imshow("After rectified", canvas);
 
-    waitKey(1000);
+    waitKey(1000000);
 
     return 0;
 }
